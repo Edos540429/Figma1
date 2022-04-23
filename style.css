@@ -270,10 +270,60 @@ display:flex;
 
 .cf_img{
     max-width: 160px;
-    display:inline-block;
+    display:flex;
+    flex-direction: column;
+   justify-content:space-between;
     margin-left:20px;
-    margin
 }
-.cf2{
-    margin-top:20px;
+
+.cf{
+    height:130px;
+}
+.text_shop{
+    margin-left:80px;
+    max-width: 116px;
+    font-size:12px;
+color: #1D1F2E;
+letter-spacing: 2px;
+line-height: 18px;
+white-space:nowrap;
+}
+.shop_suptitle{
+margin-top:14px;
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+color: #1D1F2E;
+}
+.shop_footer{
+ margin-top:15px;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(29, 31, 46, 0.7);
+}
+.wrap{
+   display:flex;
+}
+.text_title{
+    text-transform: uppercase;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 2px;
+}
+.shop_btn{
+width: 170px;
+margin-top:34px;
+padding:9px 24px;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #1D1F2E;
+border-radius: 0px;
+height:36px;
 }
