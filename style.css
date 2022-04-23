@@ -327,3 +327,145 @@ background: #1D1F2E;
 border-radius: 0px;
 height:36px;
 }
+.bg{
+    margin-top:130px;
+    max-width:1440px;
+    height:340px;
+}
+/* Stories */
+.stories_title{
+ margin-top:100px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 2px;
+color: #1D1F2E;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+.stories_suptitle{
+    margin-left:250px;
+}
+
+.stories_card{
+display:inline-block;
+max-width: 1000px;
+height:720px;
+margin:0 10px;
+}
+.stories_cards{
+    display:flex;
+    justify-content: center;
+    flex-wrap:nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+.img_text{
+ margin-top:30px;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #1D1F2E;
+width:80%;
+}
+.img_text_sup{
+ margin-top:10px;
+ font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: rgba(29, 31, 46, 0.7);
+}
+.date{
+ font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color:black;
+margin-top:16px;
+}
+/* Updates */
+.updates{
+    background:#1D1F2E;
+    width:1380px;
+    height:330px;
+    width:100%;
+    margin-left:30px;
+    margin-top:200px;
+}
+
+.updates_title{
+ font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-top:100px;
+}
+.updates_title::after{
+    content:"";
+    position:absolute;
+     background: rgba(210, 210, 213, 0.1);
+display:block;
+left:30%;
+    transform:translateX(-50%);
+    width: 40px;
+    margin-top:-10px;
+    margin-left:145px;
+    height: 1px;
+}
+.updates_title::before{
+    content:"";
+    position:absolute;
+     background: rgba(210, 210, 213, 0.1);
+     right:30%;
+    transform:translateX(-50%);
+    width: 40px;
+   margin-right:50px;
+ margin-top:8px;
+    height: 1px;
+}
+.updates_sup{
+margin-top:20px;
+}
+.upd_cf{
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+}
+.customer{
+margin-top:40px;
+color: #FFFFFF;
+width:270px;
+height:18px;
+letter-spacing: 2px;
+right:50%;
+
+}
+.customer_input{
+    width: 350px;
+height: 54px;
+background: #1D1F2E;
+border-radius: 0px;
+border: 1px solid #2F303E;
+box-sizing: border-box;
+border-radius: 0px;
+position:absolute;
+color:#fff;
+text-align: center;
+left:40%;
+margin-top:45px;
+font-size:12px;
+line-height: 18px;
+letter-spacing: 2px;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+
+
