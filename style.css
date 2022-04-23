@@ -263,14 +263,17 @@ font-size:12px;
 }
 .book{
 margin-top:100px;
-margin-left:170px;
+margin-left:167px;
+max-width: 280px;
+display:flex;
 }
 
-
-.cf1{
-    margin-bottom:150px;
+.cf_img{
+    max-width: 160px;
+    display:inline-block;
     margin-left:20px;
+    margin
 }
 .cf2{
-    margin-left:-164px;
+    margin-top:20px;
 }
