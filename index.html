@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <title>Figma</title>
 </head>
-
 
 <body>
 
@@ -27,9 +29,13 @@
                         <a class="nav_links" href="#">Contact</a>
                         <a class="nav_links" href="#">Styleguide</a>
                         <a class="nav_links nav_card" href="#">
-                            <img class="img_cart" src="images/cart1.png" alt=""> Cart<span
-                                class="text_cart">0</span></a>
+                            <img class="img_cart" src="images/cart1.png" alt=""> Cart<span class="text_cart">0</span></a>
                     </nav>
+                </div>
+                <div class="hamburger_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>
@@ -38,9 +44,7 @@
         <div class="mugs_head">
             <h1 class="mugs_title">Best place to buy design</h1>
             <h2 class="mugs_suptitle">Coffee Mugs</h2>
-            <p class="mugs_text">The most versatile furniture system ever created. Designed to fit your life, made to
-                move
-                and grow.
+            <p class="mugs_text">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.
             </p>
             <button class="btn">Explore Our Products</button>
         </div>
@@ -48,80 +52,184 @@
     <h3 class="mugs_story">Even the all-powerful Pointing has no control
         <br> about the blind texts.
     </h3>
-    <p class="story_text">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even
-        the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
-        however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+    <p class="story_text">It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name
+        of Lorem Ipsum decided to leave for the far World of Grammar.
     </p>
     <h4 class="story_suptitle">Read the full Story</h4>
     </div>
-    <hr class="bb">
-
     <div class="features_title">
         <h5 class="features_mugs">Features Mugs</h5>
-        <div class="features_img">
-            <img class="ft_img" src="images/features1.png" alt="">
-            <img class="ft_img_2" src="images/features2.png" alt="">
-        </div>
-        <div class="ft_text">
-            <h1 class="pink">Pink Premium Ceramic</h1>
-            <p class="price">$ 99.00 USD</p>
-        </div>
-        <div class="ft_text">
-            <h1 class="pink">Golden Designers Mug</h1>
-            <p class="price">$ 50.00 USD<span class="price_line">$ 69.00 USD</span></p>
+        <div class="cards">
+            <div class="card">
+                <img class="ft_img" src="images/features1.png" alt="">
+                <h1 class="pink">Pink Premium Ceramic</h1>
+                <p class="price">$ 99.00 USD</p>
+            </div>
+            <div class="card">
+                <img class="ft_img" src="images/features1.png" alt="">
+                <h1 class="pink">Pink Premium Ceramic</h1>
+                <p class="price">$ 99.00 USD</p>
+            </div>
         </div>
     </div>
     <div class="more_products">
         <div class="products_title">
             <h3 class="products_sup">More Products</h3>
-            <div class="products_img">
-                <img src="images/product1.png" alt="">
-                <img src="images/product2.png" alt="">
-                <img src="images/product3.png" alt="">
-            </div>
-            <div class="products_text">
-                <h1 class="red">Red Love Cup</h1>
-                <h1 class="red">Black Tea Cup</h1>
-                <h1 class="red">B&W Essentials Mug</h1>
-            </div>
-            <div class="price_products">
-                <p class="price_products">$ 25.00 <span class="line"> $ 37.00 USD</span></p>
-                <p class="price_products">$ 15.00 <span class="line"> $ 37.00 USD</span></p>
-                <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
-            </div>
-            <div class="products_title">
-                <div class="products_img">
+            <div class="product_cards">
+                <div class="product_card">
+                    <img src="images/product1.png" alt="">
+                    <h1 class="red">Red Love Cup</h1>
+                    <p class="price_products">$ 25.00 <span class="line"> $ 37.00 USD</span></p>
+                </div>
+                <div class="product_card">
+                    <img src="images/product2.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products">$ 15.00 <span class="line"> $ 37.00 USD</span></p>
+                </div>
+                <div class="product_card">
+                    <img src="images/product3.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
+                </div>
+                <div class="product_card">
                     <img src="images/product4.png" alt="">
+                    <h1 class="red">Red Love Cup</h1>
+                    <p class="price_products">$ 25.00 <span class="line"> $ 37.00 USD</span></p>
+                </div>
+                <div class="product_card">
                     <img src="images/product5.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products">$ 15.00 <span class="line"> $ 37.00 USD</span></p>
+                </div>
+                <div class="product_card">
                     <img src="images/product6.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
                 </div>
-                <div class="products_text">
-                    <h1 class="red">Winter Style Mug</h1>
-                    <h1 class="red">Ceramic Tea</h1>
-                    <h1 class="red">No Handle Bar Cup</h1>
-                </div>
-                <div class="price_products_gray">
-                    <p class="price_products_gray">$ 25.00 USD</p>
-                    <p class="price_products_gray">$ 46.00 USD</p>
-                    <p class="price_products_gray">$ 34.00 USD</p>
-                </div>
-                <div class="products_img">
+                <div class="product_card">
                     <img src="images/product7.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
+                </div>
+                <div class="product_card">
                     <img src="images/product8.png" alt="">
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
+                </div>
+                <div class="product_card">
                     <img src="images/product9.png" alt="">
-                </div>
-                <div class="products_text">
-                    <h1 class="red">Espresso Cup by Mugs.co</h1>
-                    <h1 class="red">Pink Premium Ceramic</h1>
-                    <h1 class="red">Summer Designer Cup</h1>
-                </div>
-                <div class="price_products_gray">
-                    <p class="price_products_gray">$ 25.00 USD</p>
-                    <p class="price_products_gray">$ 99.00 USD</p>
-                    <p class="price_products_gray">$ 29.00 USD</p>
+                    <h1 class="red">Black Tea Cup</h1>
+                    <p class="price_products"><span class="line"> $ 19.00 USD</span></p>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="shop">
+        <p class="shop_title">Buy 2 mugs and get a coffee magazine free</p>
+    </div>
+    <div class="book">
+
+        <div class="book_images">
+            <img src="images/book.png" alt="">
+            <div class="cf_img">
+                <img class="cf" src="images/coffee1.png" alt="">
+                <img class="cf" src="images/coffee2.png" alt="">
+            </div>
+        </div>
+
+        <div class="text_shop">
+            <p class="text_title">Premium Offer</p>
+            <p class="shop_suptitle">Get our Coffee Magazine</p>
+            <p class="shop_footer">The most versatile furniture system ever <span class="wrap">created. Designed to fit
+                    your life.</span></p>
+            <button class="shop_btn">Start Shopping</button>
+        </div>
+    </div>
+    <div class="bg"></div>
+
+    <div class="stories">
+        <div class="stories_title">
+            <p>Behind the mugs, lifestyle stories</p>
+        </div>
+        <div class="stories_cards">
+            <div class="stories_card">
+                <img src="images/stor1.png" alt="">
+                <h1 class="img_text">Health Check: why do I get a headache when I haven’t had my coffee?</h1>
+                <p class="img_text_sup">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <p class="date">October 9, 2018</p>
+            </div>
+            <div class="stories_card">
+                <img src="images/stor2.png" alt="">
+                <h1 class="img_text">How long does a cup of coffee keep you awake?</h1>
+                <p class="img_text_sup">It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.
+                </p>
+                <p class="date">October 9, 2018</p>
+            </div>
+            <div class="stories_card">
+                <img src="images/stor3.png" alt="">
+                <h1 class="img_text">Recent research suggests that heavy coffee drinkers may reap health benefits.</h1>
+                <p class="img_text_sup">It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+                <p class="date">October 9, 2018</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="updates">
+        <div class="updates_title">
+            <p>Sign up and get free coffee bags</p>
+        </div>
+        <div class="updates_sup">
+            <h1 class="upd_cf">Coffee Updates</h1>
+            <input class="customer_input" type="text" name="customer @coffestyle.io">
+        </div>
+    </div>
+
+    <footer class="foot_container">
+        <nav class="foot">
+            <div class="footer_nav">
+                <img src="images/logo.png" alt="">
+                <p class="footer_text">Delivering the best coffee life since 1996. From coffee geeks to the real ones.
+                </p>
+                <p class="footer_since">CoffeeStyle Inc. © 1996</p>
+            </div>
+
+            <div class="footer_nav">
+                <div class="menu_title">
+                    <h1>Menu</h1>
+                </div>
+                <div class="menu_suptitle">
+                    <p class="menu_text">Home</p>
+                    <p class="menu_text">Our Products</p>
+                    <p class="menu_text">About</p>
+                    <p class="menu_text">Contact</p>
+                    <p class="menu_text">Styleguide</p>
+                </div>
+            </div>
+            <div class="footer_nav">
+                <div class="follow_title">
+                    <h2>Follow Us</h2>
+                </div>
+                <div class="follow_suptitle">
+                    <p class="follow_text">Facebook</p>
+                    <p class="follow_text">Instagram</p>
+                    <p class="follow_text">Pinterest</p>
+                    <p class="follow_text">Twitter</p>
+                </div>
+            </div>
+            <div class="footer_nav">
+                <div class="contact_title">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="contact_suptitle">
+                    <p class="contact_text">We’re Always Happy to Help</p>
+                    <p class="contact_email">us@coffeestyle.io</p>
+                    <p class="contact_text_two">Powered by Webflow</p>
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
